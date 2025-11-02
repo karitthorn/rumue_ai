@@ -2,14 +2,14 @@
 
 AI system สำหรับการจำแนกภาษามือภาษาไทย โดยใช้ Convolutional Neural Network (CNN) และ PyTorch
 
-## 🌟 Features
+## Features
 
 - **Real-time Sign Language Recognition**: ระบบจำแนกภาษามือแบบผ่านกล้องเว็บแคม
 - **GPU Acceleration**: รองรับการใช้งาน Intel Arc Graphics, CUDA, และ CPU
 - **24 Letter Support**: รองรับตัวอักษร A-I และ K-Y (ยกเว้น J และ Z)
 - **User-friendly Interface**: อินเทอร์เฟซง่ายต่อการใช้งาน
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8+
 - PyTorch 2.8.0+xpu (สำหรับ Intel Arc GPU)
@@ -20,7 +20,7 @@ AI system สำหรับการจำแนกภาษามือภา�
 - Pandas
 - scikit-learn
 
-## 🚀 Installation
+##  Installation
 
 1. Clone repository:
 ```bash
@@ -34,7 +34,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install opencv-python numpy matplotlib seaborn pandas scikit-learn kagglehub
 ```
 
-## 📖 Usage
+##  Usage
 
 ### Real-time Recognition
 
@@ -51,7 +51,7 @@ jupyter lab "main.ipynb"
 
 2. รันทุก cell เพื่อ train model ใหม่
 
-## 🎯 Model Architecture
+##  Model Architecture
 
 - **Input**: 28x28 grayscale images
 - **Architecture**: 6-layer CNN with batch normalization
@@ -59,13 +59,13 @@ jupyter lab "main.ipynb"
 
 
 
-## 🎮 Controls
+##  Controls
 
 - **Q**: ออกจากโปรแกรม
 - **Spacebar/S**: บันทึกภาพหน้าจอ
 - วางมือในกรอบสี่เหลี่ยมสีน้ำเงินเพื่อให้ AI ทำนาย
 
-## 📝 Supported Letters
+##  Supported Letters
 
 ✅ **รองรับ**: A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y
 
@@ -73,7 +73,7 @@ jupyter lab "main.ipynb"
 - **J**: ต้องใช้การเคลื่อนไหว (motion gesture)
 - **Z**: ไม่มีใน Sign Language MNIST dataset
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rumue_ai/
@@ -84,7 +84,7 @@ rumue_ai/
 └── LICENSE                                # License file
 ```
 
-## 🔧 GPU Support
+##  GPU Support
 
 ### Intel Arc Graphics
 ```python
@@ -103,11 +103,11 @@ device = torch.device('cpu')    # Auto-fallback
 
 
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Sign Language MNIST Dataset by DataMunge
 - PyTorch team for excellent deep learning framework
