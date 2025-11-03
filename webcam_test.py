@@ -283,7 +283,7 @@ def main():
 
     except FileNotFoundError:
         print("❌ Error: NEW model file not found")
-        print("   Expected: 'best_sign_language_model_pytorch_corrected_24classes.pth'")
+        print("   Expected: 'model.pth'")
         print("   Please train the NEW model using the corrected notebook first")
         print("   Or rename your corrected model file to the expected name")
     except Exception as e:
