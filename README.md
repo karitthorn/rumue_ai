@@ -1,6 +1,7 @@
 # Rumue AI - Thai Sign Language Recognition System
 
 AI system สำหรับการจำแนกภาษามือภาษาไทย โดยใช้ Convolutional Neural Network (CNN) และ PyTorch
+(Project นี้มีวัตถุประสงค์เพื่อการศึกษาเท่านั้น)
 
 ## Features
 
